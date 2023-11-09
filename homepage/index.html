@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Management</title>
+    <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- swiper cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <!---------------------HEADER SECTION---------------------->
+
+    <header class="header">
+        <a href="#" class="logo"> FitBite</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#diet">diet</a>
+            <a href="#fitness">fitness</a>
+        </nav>
+        <div class="fas fa-bars" id="menu"></div>
+    </header>
+
+    <!------------HOME SECTION-------------->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to the FitBite</h3>
+            <a href="#" class="btn"> read more</a>
+        </div>
+    </section>
+
+    <!--------------ABOUT SECTION----------------->
+    <section class="about" id="about">
+        <h1 class="heading">about us</h1>
+        <div class="row">
+            <div class="content">
+                <h3>A Meal Tracker and Fitness Friend.</h3>
+                <p>Say goodbye to the hassle of manual logging—simply input your food choices, and our intelligent system breaks down the nutritional content for you. Whether you're counting calories, monitoring macros, or focusing on specific dietary preferences, FitBite adapts to your needs, providing valuable insights to help you make informed choices about your nutrition.
+                    But that's not all—our fitness integration takes your journey to the next level. Access a diverse range of workout routines, tailored to your fitness level and goals.        
+                    Stay motivated with personalized progress tracking, celebrating your achievements and adapting your plan as you evolve on your fitness path. FitBite is not just a meal tracker and fitness website, it's your dedicated partner in cultivating a sustainable, healthy lifestyle.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!----------------SERVICE SECTION-------------------->
+    <section class="services" id="services">
+        <h1 class="heading">our services</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icon">
+                    <img src="images/service-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Calorie Tracking System</h3>
+                    <div class="line"></div>
+                    <p>By evaluating the food, it detects the calories.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <img src="images/service-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Customised Fitness Plan</h3>
+                    <div class="line"></div>
+                    <p>It creates customised fitness workouts according to health requirements.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <img src="images/service-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Healthy food Recipes</h3>
+                    <div class="line"></div>
+                    <p>It has three course meal recipes for Indian People.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-----------------DIET SECTION---------------------->
+    <section class="diet" id="diet">
+
+        <h1 class="heading">diet plan</h1>
+
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">
+                <img src="images/diet-1.png" alt="">
+                <h3>all</h3>
+            </li>
+            <li class="buttons" data-filter="breakfast">
+                <img src="images/diet-2.png" alt="">
+                <h3>breakfast</h3>
+            </li>
+            <li class="buttons" data-filter="lunch">
+                <img src="images/diet-3.png" alt="">
+                <h3>lunch</h3>
+            </li>
+            <li class="buttons" data-filter="dinner">
+                <img src="images/diet-4.png" alt="">
+                <h3>dinner</h3>
+            </li>
+        </ul>
+
+        <div class="image-container">
+
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet_blog1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Lemon Rice</a>
+                    <p>Lemon Rice is a popular dish of South Indian cuisine. It's one of the simplest rice recipes that you can make in just 10 minutes.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet_blog2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Poha</a>
+                    <p>Poha are flattened rice flakes, also known as beaten rice. It is made by de-husking rice grains and parboiling them.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 Dec, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> by Admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet_blog3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Upma</a>
+                    <p>Upma is a popular South Indian breakfast made with cream of wheat or semolina flour, veggies, spices and herbs.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet_blog4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Idli</a>
+                    <p> It is an South-Indian dish.These are soft, light, fluffy steamed round cakes made with a ground, fermented rice and lentil batter.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet_blog5.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Chole Curry</a>
+                    <p>Chole is made with soaking chickpeas overnight and cooking them with onions, tomatoes and spices to make this flavorful curry</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog6.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Moong Dal Methi Sabzi</a>
+                    <p>Methi Moong Dal Sabzi is a lip-smacking dry preparation of fresh fenugreek and split green gram tossed with spices.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog7.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Dal Fry</a>
+                    <p>Dal Fry is a delicious and popular Indian lentil recipe that is made with tuvar dal (pigeon pea lentils), onions, tomatoes and spices.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog8.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Paneer Fry</a>
+                    <p>Paneer Fry is a simple recipe made with sweet onions, tangy tomatoes, flavorful herbs, fragrant spices and of course Paneer.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog9.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Coconut Milk Rice</a>
+                    <p>Coconut Milk Rice (also called Thengai Paal Sadam in Tamil) is a flavorful and tasty rice based dish featuring rice, onions, coconut milk, mixed vegetables, and flavored with aromatic spices and herbs.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- pricing section starts -->
+
+    <section class="pricing" id="fitness">
+
+        <h1 class="heading">Fitness Plans</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">basic</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">30</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>30 days consultation</p>
+                <p>3 personal meetings</p>
+                <p>$20 access to additional materials</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box active">
+                <h3 class="title">standard</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">70</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>60 days consultation</p>
+                <p>10 personal meetings</p>
+                <p>free access to additional materials</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">premium</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">90</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>90 days consultation</p>
+                <p>15 personal meetings</p>
+                <p>free access to additional materials</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i>about</a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i>services</a>
+                <a href="#diet"> <i class="fas fa-arrow-right"></i>diet</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>ask questions</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"> <i class="fas fa-phone"></i>+123-765-2568</a>
+                <a href="#"> <i class="fas fa-envelope"></i>123@gmail.com</a>
+                <a href="#"> <i class="fas fa-map"></i>MUMBAI, IND -12233</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="#"> <i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="#"> <i class="fab fa-github"></i>github</a>
+            </div>
+
+        </div>
+
+        <div class="credit">All rights are reserved!</div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
