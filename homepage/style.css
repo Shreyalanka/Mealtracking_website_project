@@ -542,3 +542,36 @@ section{
    }
 
 }
+
+.box1{
+   background: url(jogging.jpg);
+   height: 300px;
+   justify-content: center
+}
+
+.box2{
+   background: url(push-ups.jpg);
+   height: 300px;
+   justify-content: center
+}
+
+.box3{
+   background: url(squats.jpg);
+   height: 300px;
+   justify-content: center
+}
+
+.box4{
+   background: url(Boxing.jpg);
+   height: 300px;
+   justify-content: center
+}
+
+.box5{
+   background: url(skipping.jpg);
+   height: 300px;
+   justify-content: center
+}
+.box-content{
+   margin-left: 10px;
+}
