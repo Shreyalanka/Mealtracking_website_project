@@ -85,7 +85,12 @@ input:valid ~ label {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
  
+}
+
+.forget .separator {
+    margin: 0 20px; /* Adjust the spacing as needed */
 }
 
 .forget label {
@@ -121,7 +126,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(255, 255,255, 0.5);
+  background-color: rgba(0, 0, 0, 0.204);
 }
 
 .register {
@@ -133,7 +138,7 @@ button:hover {
 
 .register p a {
     text-decoration: none;
-    color: #fff;
+    color: #fff3f3;
     font-weight: 600;
 }
 
