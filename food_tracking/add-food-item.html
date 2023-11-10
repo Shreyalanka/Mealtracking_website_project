@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Food Item - Meal Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Meal Tracker</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="food-list.html">Food List</a></li>
+                <li><a href="food-categories.html">Food Categories</a></li>
+                <li><a href="#">Add Food Item</a></li>
+                <li><a href="food-log.html">Food Log</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="add-food-item">
+        <h1>Add Food Item</h1>
+        <form id="foodForm">
+            <label for="foodName">Food Name:</label>
+            <input type="text" id="foodName" name="foodName" required>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="italian">Italian</option>
+                <option value="seafood">Seafood</option>
+                <option value="fruits">Fruits</option>
+                <!-- Add more categories as needed -->
+            </select>
+
+            <button type="button" onclick="addFoodItem()">Add Food Item</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meal Tracker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
