@@ -418,7 +418,7 @@ section{
    color: var(--black);
    margin: 2rem auto;
    text-align: center;
-   padding-left: 3.8rem;
+   padding-left: 1rem;
 }
 
 
@@ -529,6 +529,7 @@ section{
    background-size: cover;
    color: rgb(255, 255, 255); 
    padding: 20px; 
+   
 }
 
 .box2{
